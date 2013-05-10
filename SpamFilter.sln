@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamFilter", "SpamFilter\SpamFilter.csproj", "{9C994625-C145-4169-8751-C0B4DC27A1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamFilterGUI", "SpamFilterGUI\SpamFilterGUI.csproj", "{74ED2212-1362-4C1B-8E8A-9A9B7B8F2E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C994625-C145-4169-8751-C0B4DC27A1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C994625-C145-4169-8751-C0B4DC27A1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C994625-C145-4169-8751-C0B4DC27A1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C994625-C145-4169-8751-C0B4DC27A1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ED2212-1362-4C1B-8E8A-9A9B7B8F2E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ED2212-1362-4C1B-8E8A-9A9B7B8F2E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ED2212-1362-4C1B-8E8A-9A9B7B8F2E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ED2212-1362-4C1B-8E8A-9A9B7B8F2E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
