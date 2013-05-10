@@ -1,0 +1,6 @@
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\bin\Debug\SpamFilter.exe.config
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\bin\Debug\SpamFilter.exe
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\bin\Debug\SpamFilter.pdb
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\obj\Debug\SpamFilter.csprojResolveAssemblyReference.cache
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\obj\Debug\SpamFilter.exe
+c:\users\dean\documents\visual studio 2012\Projects\SpamFilter\SpamFilter\obj\Debug\SpamFilter.pdb
