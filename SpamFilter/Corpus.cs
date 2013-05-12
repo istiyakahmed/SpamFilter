@@ -12,7 +12,7 @@ namespace SpamFilter
         public List<Tuple<String, bool>> Samples { get; private set; }
 
         private Dictionary<String, int> featureDF;
-        protected Dictionary<String, int> FeatureDF
+        public Dictionary<String, int> FeatureDF
         {
             get { return featureDF; }
             set

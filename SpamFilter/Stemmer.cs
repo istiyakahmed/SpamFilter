@@ -98,6 +98,9 @@ namespace SpamFilter
 
             foreach (string s in corpusWords)
                 mappings.Add(s, FindStem(s, nodes));
+
+            using (StreamWriter writer = new StreamWriter("stems.txt"))
+                Write(writer);
         }
 
         private void SplitPhase(Dictionary<string, MorphemeNode> nodes)

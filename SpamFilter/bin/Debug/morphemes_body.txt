@@ -1,255 +1,81 @@
+su
+sum sur 
+
 languag
 language languages 
 
-tim
-time times 
+ex
+sex phonesex 
 
-fre
-free freedom 
-
-mak
-make makes 
-
-ax
-fax tax 
-
-yea
-years year 
-
-l
-ll la il law al 
-
-wo
-word words 
-
-d
-de dr ed des 
-
-recei
-receive received 
-
-chec
-check checks 
-
-cas
-case cases 
-
-v
-ve ave 
-
-mai
-mailing mailings 
-
-progra
-program programs 
-
-plac
-place places 
-
-dat
-date data 
-
-amer
-american america 
-
-ba
-back bad 
-
-a
-ac add ad act 
-
-remov
-remove removed 
-
-ques
-questions question 
-
-fu
-full fun 
-
-poin
-point points 
-
-go
-ago gov 
+wor
+words word 
 
 boo
 book books 
 
-cos
-cost costs 
+metho
+method methods 
 
-wee
-week weeks 
+jo
+job jobs 
 
-c
-ca card cd car care 
-
-ut
-put cut 
-
-et
-net set 
-
-are
-area areas 
-
-pap
-paper papers 
-
-ht
-html htm 
-
-eal
-real deal 
-
-pag
-page pages 
-
-referenc
-reference references 
-
-ot
-lot hot 
-
-discu
-discussion discuss 
-
-majo
-major majority 
-
-reques
-request requests 
-
-posi
-position positions 
-
-grou
-group groups 
-
-hou
-hours hour 
-
-mited
-limited unlimited 
-
-proble
-problem problems 
-
-respons
-response responses 
-
-membe
-members member 
-
-pas
-past pass 
-
-p
-pay po ph pa 
-
-reaso
-reason reasons 
-
-dolla
-dollars dollar 
+progra
+program programs 
 
 mill
 million millions 
 
-fil
-file files 
+amer
+american america 
 
-repor
-report reports 
+dialec
+dialect dialects 
 
-fiel
-field fields 
+releas
+released release 
+
+ca
+care car 
+
+mak
+make maker 
+
+referenc
+reference references 
+
+ma
+mac man 
+
+vide
+video videos 
+
+updat
+update updates 
+
+a
+adv ad 
+
+posi
+position positions 
 
 rat
 rate rates 
 
-fri
-friends friend 
+judg
+judgment judgments 
 
-conten
-content contents 
+op
+top stop 
 
-ver
-verb verbs 
+c
+acl eacl cl cd 
 
-min
-mind mine 
+nd
+ind find 
 
 materia
 material materials 
 
-guarante
-guarantee guaranteed 
-
-pric
-price prices 
-
-resul
-results result 
-
-i
-idea ii id iii 
-
-bil
-bill bills 
-
-contex
-context contexts 
-
-rul
-rules rule 
-
-m
-ma mid mi 
-
-adul
-adult adults 
-
-arning
-learning earning 
-
-dialec
-dialects dialect 
-
-construc
-constructions construction 
-
-recor
-record records 
-
-creat
-created create 
-
-principl
-principles principle 
-
-s
-se cs 
-
-featur
-feature features 
-
-differenc
-differences difference 
-
-lin
-link ling 
-
-x
-sex tx 
-
-en
-ten tend 
-
-ds
-eds ads 
-
-ite
-items item 
+fas
+faster fast 
 

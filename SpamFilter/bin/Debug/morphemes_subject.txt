@@ -1,10 +1,13 @@
+su
+sum sur 
+
 languag
 language languages 
 
 ex
 sex phonesex 
 
-wo
+wor
 words word 
 
 boo
@@ -22,8 +25,20 @@ program programs
 mill
 million millions 
 
+amer
+american america 
+
 dialec
 dialect dialects 
+
+releas
+released release 
+
+ca
+care car 
+
+mak
+make maker 
 
 referenc
 reference references 
@@ -31,15 +46,36 @@ reference references
 ma
 mac man 
 
+vide
+video videos 
+
+updat
+update updates 
+
+a
+adv ad 
+
 posi
 position positions 
 
 rat
 rate rates 
 
-cl
-acl eacl 
+judg
+judgment judgments 
+
+op
+top stop 
+
+c
+acl eacl cl cd 
 
 nd
 ind find 
+
+materia
+material materials 
+
+fas
+faster fast 
 

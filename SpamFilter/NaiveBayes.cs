@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpamFilter
 {
-    class NaiveBayes : IClassifier
+    class NaiveBayes
     {
         double pYes, pNo;
         double[] yesMean, noMean, yesSD, noSD;

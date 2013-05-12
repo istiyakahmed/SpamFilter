@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IClassifier.cs" />
     <Compile Include="Corpus.cs" />
     <Compile Include="EmailData.cs" />
     <Compile Include="FeatureVector.cs" />

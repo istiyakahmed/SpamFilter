@@ -1,45 +1,480 @@
 languag
 language languages 
 
-ex
-sex phonesex 
+ti
+time tim 
 
-wo
-words word 
+fre
+free freedom 
 
-boo
-book books 
+mak
+make makes 
 
-metho
-method methods 
+ork
+work works 
 
-jo
-job jobs 
+fin
+find fine 
 
-progra
-program programs 
+ax
+fax tax max 
 
-mill
-million millions 
+yea
+years year 
 
-dialec
-dialect dialects 
+l
+ll life tel la il law al le el li 
+
+wor
+word words 
+
+d
+de dr ed due des du 
+
+cas
+case cases 
+
+ho
+home hot 
+
+dat
+date data 
+
+ays
+days pays 
+
+ameri
+american america 
+
+ba
+back bank bad 
+
+a
+ac add ad au ai ar 
+
+ques
+questions question 
+
+ite
+site items item 
+
+go
+ago gov 
+
+ead
+read head 
+
+cos
+cost costs 
+
+xt
+text ext 
+
+ine
+line mine 
+
+c
+ca card cd car care 
+
+ut
+put cut 
+
+are
+area areas 
+
+gramma
+grammar grammars 
+
+ht
+html htm 
+
+pag
+page pages 
 
 referenc
 reference references 
 
-ma
-mac man 
+e
+set se ne sets anne 
 
-posi
+lo
+lot los 
+
+compute
+computer computers 
+
+majo
+major majority 
+
+matt
+matter matters 
+
+positio
 position positions 
+
+grou
+group groups 
+
+hou
+hours hour 
+
+mited
+limited unlimited 
+
+proble
+problem problems 
+
+respons
+response responses 
+
+hundre
+hundreds hundred 
+
+membe
+members member 
+
+nd
+end tend 
+
+pas
+past pass paste 
+
+p
+pay po ph pa 
+
+instructio
+instructions instruction 
+
+dolla
+dollars dollar 
+
+cod
+code codes 
+
+fil
+file files fill 
+
+repor
+report reports 
+
+writ
+write writes 
+
+fiel
+field fields 
+
+versio
+version versions 
+
+jo
+job jobs 
 
 rat
 rate rates 
 
-cl
-acl eacl 
+frie
+friends friend 
 
-nd
-ind find 
+t
+rest st act tx test txt ct est 
+
+bi
+big bit 
+
+conten
+content contents 
+
+perio
+period periods 
+
+materia
+material materials 
+
+guarante
+guarantee guaranteed 
+
+pric
+price prices 
+
+soun
+sound sounds 
+
+hop
+hope shop 
+
+i
+idea ii id iii 
+
+brea
+break breaks 
+
+commen
+comments comment 
+
+publi
+public publications publication 
+
+professiona
+professional professionals 
+
+aspec
+aspects aspect 
+
+projec
+project projects 
+
+pack
+package packages 
+
+tol
+told toll 
+
+contex
+context contexts 
+
+rul
+rules rule 
+
+custom
+customers customer 
+
+degre
+degree degrees 
+
+m
+ma man mid mi mac 
+
+isk
+risk disk 
+
+adul
+adult adults 
+
+ru
+run runs 
+
+dialec
+dialects dialect 
+
+paymen
+payment payments 
+
+too
+tool tools 
+
+vide
+video videos 
+
+goa
+goal goals 
+
+descrip
+description descriptions 
+
+doub
+doubt doubts 
+
+vo
+vol von 
+
+doma
+domain domains 
+
+corporatio
+corporation corporations 
+
+recor
+record records 
+
+creat
+created create 
+
+communic
+communication communications 
+
+fas
+fast faster 
+
+phoneti
+phonetics phonetic 
+
+prio
+prior priority 
+
+principl
+principles principle 
+
+occu
+occur occurs 
+
+clai
+claim claims 
+
+featur
+feature features 
+
+differenc
+differences difference 
+
+lin
+link ling 
+
+patter
+patterns pattern 
+
+deb
+debt debts 
+
+willia
+william williams 
+
+manua
+manual manuals 
+
+minut
+minutes minute 
+
+ds
+eds ads 
+
+directo
+directory director 
+
+vowe
+vowel vowels 
+
+s
+cs es ms acs 
+
+relativ
+relatives relative 
+
+cul
+culture cultures 
+
+w
+wa war 
+
+use
+users user 
+
+mode
+model models 
+
+it
+mit fit 
+
+gam
+game games 
+
+databas
+database databases 
+
+iled
+mailed emailed 
+
+phras
+phrase phrases 
+
+cen
+cents cent 
+
+benefi
+benefits benefit 
+
+roo
+room rooms 
+
+pr
+prof pre pro 
+
+eferred
+preferred referred 
+
+wind
+windows window 
+
+purpos
+purpose purposes 
+
+figur
+figure figured 
+
+austral
+australia australian 
+
+nds
+ends sends 
+
+ir
+air pair 
+
+pragmati
+pragmatics pragmatic 
+
+lan
+alan lang 
+
+drea
+dreams dream 
+
+gir
+girl girls 
+
+pictur
+picture pictures 
+
+rts
+parts arts 
+
+replac
+replaced replace 
+
+retir
+retire retired 
+
+an
+san ann 
+
+xpensive
+expensive inexpensive 
+
+decis
+decision decisions 
+
+directio
+direction directions 
+
+rais
+raise raised 
+
+remai
+remain remains 
+
+compar
+compare compared 
+
+afri
+african africa 
+
+me
+men met 
+
+candidat
+candidate candidates 
+
+relatio
+relations relation 
+
+publishe
+publishers publisher 
+
+charact
+character characters 
+
+stev
+steve steven 
+
+discoun
+discount discounts 
 

@@ -93,6 +93,8 @@ namespace SpamFilter
             //finialise mappings
             foreach (KeyValuePair<string, Tuple<string, double>> v in significance)
                 mappings.Add(v.Key, v.Value.Item1);
+
+            
         }
 
         public string Map(string word)

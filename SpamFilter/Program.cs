@@ -16,21 +16,23 @@ namespace SpamFilter
             data = new EmailData();
             data.ReadData(Directory.GetCurrentDirectory() + "\\lingspam-mini600");
             data.ReadStopWords(Directory.GetCurrentDirectory() + "\\words.txt");
-            data.SelectFeatures(200);
-            data.ConstructDataSets();
-            using (StreamWriter writer = new StreamWriter("body.csv"))
+
+            Console.WriteLine("Enter one of the following to begin: RunMyNB, RunCSV, RunStemmed, RunMapped, exit");
+
+            string command;
+            while ((command = Console.ReadLine().ToLower()) != "exit")
             {
-                data.Body.WriteCSV(writer);
-                writer.Flush();
+                if (command == "runmynb")
+                    RunNaiveBayes();
+                if (command == "runcsv")
+                    RunNaiveBayesCSV();
+                if (command == "runstemmed")
+                    RunNaiveBayesStemmed();
+                if (command == "runmapped")
+                    RunNaiveBayesMapped();
+
+                Console.WriteLine("Enter one of the following to begin: RunMyNB, RunCSV, RunStemmed, RunMapped, exit");
             }
-            using (StreamWriter writer = new StreamWriter("subject.csv"))
-            {
-                data.Subject.WriteCSV(writer);
-                writer.Flush();
-            }
-            RunNaiveBayesCSV();
-            //RunNaiveBayesStemmed();
-            //RunNaiveBayesMapped();
         }
 
         static void RunCrossValidation(IEnumerable<FeatureVector> datasetS, IEnumerable<FeatureVector> datasetB)
@@ -40,8 +42,8 @@ namespace SpamFilter
             List<FeatureVector>[] trainingSetsS = new List<FeatureVector>[10];
             List<FeatureVector>[] strataB = new List<FeatureVector>[10];
             List<FeatureVector>[] trainingSetsB = new List<FeatureVector>[10];
-            IClassifier[] classifiersS = new IClassifier[10];
-            IClassifier[] classifiersB = new IClassifier[10];
+            NaiveBayes[] classifiersS = new NaiveBayes[10];
+            NaiveBayes[] classifiersB = new NaiveBayes[10];
 
             for (int i = 0; i < 10; i++)
             {
@@ -68,6 +70,17 @@ namespace SpamFilter
                 st++;
                 st = st % 10;
             }
+
+            /*using (StreamWriter writer = new StreamWriter("body-folds.csv"))
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    writer.WriteLine("fold" + (i+1));
+                    foreach (FeatureVector v in strataB[i])
+                        writer.WriteLine(v.ToCSV());
+                    writer.WriteLine();
+                }
+            }*/
 
             //make test folds
             for (int i = 0; i < 10; i++)
@@ -190,8 +203,8 @@ namespace SpamFilter
 
         static void RunNaiveBayesStemmed()
         {
-            Corpus subject = new StemmedCorpus(data.Subject, 400);
-            Corpus body = new StemmedCorpus(data.Body, 1000);
+            Corpus subject = new StemmedCorpus(data.Subject, 600);
+            Corpus body = new StemmedCorpus(data.Body, 2000);
             subject.SelectFeatures(data.StopWords, 200);
             body.SelectFeatures(data.StopWords, 200);
             subject.ConstructDataSet();
@@ -205,6 +218,19 @@ namespace SpamFilter
         {
             Corpus subject = new MappedCorpus(data.Subject);
             Corpus body = new MappedCorpus(data.Body);
+            subject.SelectFeatures(data.StopWords, 200);
+            body.SelectFeatures(data.StopWords, 200);
+            subject.ConstructDataSet();
+            body.ConstructDataSet();
+
+            //run validation
+            RunCrossValidation(subject.DataSet, body.DataSet);
+        }
+
+        static void RunNaiveBayes()
+        {
+            Corpus subject = new Corpus(data.Subject);
+            Corpus body = new Corpus(data.Body);
             subject.SelectFeatures(data.StopWords, 200);
             body.SelectFeatures(data.StopWords, 200);
             subject.ConstructDataSet();
